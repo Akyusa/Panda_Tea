@@ -1,0 +1,355 @@
+.T0 {
+    text-align: center;
+    font-family: "Intel", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10vh;
+}
+
+.T1 {
+    text-align: center;
+    font-family: "Intel", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+.T2 {
+    text-align: center;
+    font-family: "Intel", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.T3 {
+    text-align: center;
+    font-family: "Intel", sans-serif;
+    font-size: 14px;
+}
+
+.F1 {
+    font-family: "Intel", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.F2 {
+    font-family: "Intel", sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+/*------------------------------------------------*/
+
+#nav-bar {
+    background-color: #CFB79B;
+    padding: 1vh;
+}
+.nav-item{
+    font-size: 20px;
+}
+
+#menu-produits, #menu-packs, #menu-propos, #menu-forums, #menu-contact {
+    color: white;
+}
+
+/*------------------------------------------------*/
+
+.img-100 {
+    width: 100%;
+}
+
+.bouton {
+    background-color: #CFB79B;
+    font-family: "Intel", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 5%;
+}
+
+/*------------------------------------------------*/
+
+.produits {
+    margin: 0% 1% 10vh 1%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 16;
+}
+
+.morning {
+    display: grid;
+    background-color: #F3F3F3;
+    margin: 4%;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+}
+
+.night {
+    display: grid;
+    background-color: #F3F3F3;
+    margin: 4%;
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+}
+
+.sleep {
+    display: grid;
+    background-color: #F3F3F3;
+    margin: 4%;
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+}
+
+.fresh {
+    display: grid;
+    background-color: #F3F3F3;
+    margin: 4%;
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+}
+
+.libertea {
+    display: grid;
+    background-color: #F3F3F3;
+    margin: 4%;
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+}
+
+.habibtea {
+    display: grid;
+    background-color: #F3F3F3;
+    margin: 4%;
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+}
+
+.green {
+    display: grid;
+    background-color: #F3F3F3;
+    margin: 4%;
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+}
+
+.choco {
+    display: grid;
+    background-color: #F3F3F3;
+    margin: 4%;
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+}
+
+.bamboo {
+    display: grid;
+    background-color: #F3F3F3;
+    margin: 4%;
+    grid-column: 1;
+    grid-row: 5;
+    text-align: center;
+}
+
+.infuser {
+    display: grid;
+    background-color: #F3F3F3;
+    margin: 4%;
+    grid-column: 2;
+    grid-row: 5;
+    text-align: center;
+}
+
+.bottle-verte {
+    display: grid;
+    background-color: #F3F3F3;
+    margin: 4%;
+    grid-column: 1;
+    grid-row: 6;
+    text-align: center;
+}
+
+.bottle-violet {
+    display: grid;
+    background-color: #F3F3F3;
+    margin: 4%;
+    grid-column: 2;
+    grid-row: 6;
+    text-align: center;
+}
+
+/*------------------------------------------------*/
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+    padding: 2%;
+}
+
+.specialites {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.aide {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.panda-tea {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.reseaux {
+    grid-column: span 3;
+    grid-row: 2;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+/*------------------------------------------------*/
+
+@media (min-width: 790px) {
+
+    .produits {
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 4;
+    }
+    
+    .sleep {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    
+    .fresh {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .libertea {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .habibtea {
+        grid-column: 3;
+        grid-row: 2;
+    }
+    
+    .green {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .choco {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .bamboo {
+        grid-column: 3;
+        grid-row: 3;
+    }
+    
+    .infuser {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    .bottle-verte {
+        grid-column: 2;
+        grid-row: 4;
+    }
+    
+    .bottle-violet {
+        grid-column: 3;
+        grid-row: 4;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .produits {
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 3;
+    }
+
+    .fresh {
+        grid-column: 4;
+        grid-row: 1;
+    }
+    
+    .libertea {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .habibtea {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .green {
+        grid-column: 3;
+        grid-row: 2;
+    }
+    
+    .choco {
+        grid-column: 4;
+        grid-row: 2;
+    }
+
+    .bamboo {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .infuser {
+        grid-column: 2;
+        grid-row: 3;
+    }
+    
+    .bottle-verte {
+        grid-column: 3;
+        grid-row: 3;
+    }
+    
+    .bottle-violet {
+        grid-column: 4;
+        grid-row: 3;
+    }
+
+    .footer-grid {
+        grid-template-columns: 4;
+    }
+    
+    .reseaux {
+        grid-column: 4;
+        grid-row: 1;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    .produits {
+        margin: 0% 15% 10vh 15%;
+    }
+
+    .footer-grid {
+        margin: 10vh 15% 10vh 15%;
+    }
+}

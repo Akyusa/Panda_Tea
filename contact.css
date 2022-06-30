@@ -1,0 +1,161 @@
+.T1 {
+    margin: 10vh 5vh 5vh 5vh;
+    font-family: bold "Intel", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.T2 {
+    margin: 5vh;
+    font-family: "Intel", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.F1 {
+    font-family: "Intel", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.F2 {
+    font-family: "Intel", sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+/*------------------------------------------------*/
+
+#nav-bar {
+    background-color: #CFB79B;
+    padding: 1vh;
+}
+.nav-item{
+    font-size: 20px;
+}
+
+#menu-produits, #menu-packs, #menu-propos, #menu-forums, #menu-contact {
+    color: white;
+}
+
+/*------------------------------------------------*/
+
+.contact {
+    margin: 0% 10% 5vh 10%;
+}
+
+.form-control {
+    border: 2px solid #CFB79B;
+}
+
+#bouton {
+    background-color: #CFB79B;
+    font-family: "Intel", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    width: 80%;
+    height: 40px;
+}
+
+.img-contact {
+    width: 100%;
+    margin-bottom: 1vh;
+}
+
+/*------------------------------------------------*/
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+    padding: 2%;
+}
+
+.specialites {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.aide {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.panda-tea {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.reseaux {
+    grid-column: span 3;
+    grid-row: 2;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+/*------------------------------------------------*/
+
+@media (min-width: 790px) {
+
+    .T1 {
+        margin: 15vh 5vh 0vh 10vh;
+        font-size: 30px;
+    }
+    
+    .T2 {
+        margin: 10vh;
+        font-size: 20px;
+    }
+
+}    
+
+@media (min-width: 1200px) {
+    
+    .contact {
+        margin: 0% 20% 5vh 20%;
+    }
+
+    .footer-grid {
+        grid-template-columns: 4;
+    }
+    
+    .reseaux {
+        grid-column: 4;
+        grid-row: 1;
+    }
+
+    .T1 {
+        margin: 15vh 20vh 0vh 20vh;
+        font-size: 30px;
+    }
+    
+    .T2 {
+        margin: 10vh 20vh 10vh 20vh;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    .contact {
+        margin: 0% 30% 5vh 30%;
+    }
+    
+    .footer-grid {
+        margin: 0vh 15% 10vh 15%;
+    }
+
+    .T1 {
+        margin: 15vh 30vh 0vh 30vh;
+        font-size: 30px;
+    }
+    
+    .T2 {
+        margin: 10vh 30vh 10vh 30vh;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,292 @@
+.T1 {
+    font-family: bold "Intel", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.T2 {
+    font-family: "Intel", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.T3 {
+    font-family: bold "Intel", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+.T4 {
+    font-family: bold "Intel", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.T5 {
+    font-family: bold "Intel", sans-serif;
+    font-size: 17px;
+}
+
+.T6 {
+    font-family: "Intel", sans-serif;
+    font-size: 17px;
+}
+
+.F1 {
+    font-family: "Intel", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.F2 {
+    font-family: "Intel", sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+/*------------------------------------------------*/
+
+#nav-bar {
+    background-color: #CFB79B;
+    padding: 1vh;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+#menu-produits, #menu-packs, #menu-propos, #menu-forums, #menu-contact {
+    color: white;
+}
+
+.img-compte {
+    width: 15%;
+}
+
+.img-panier {
+    width: 50%;
+}
+
+/*------------------------------------------------*/
+
+.img-background {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+/*------------------------------------------------*/
+
+.nouveautes {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+
+.detox-slim {
+    background-image: url("/Site de vente en ligne/img/accueil/detox-slim-fit.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0% 2% 2% 2%;
+}
+
+.selection {
+    background-image: url("/Site de vente en ligne/img/accueil/instagram-feed4_360x.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 2%;
+}
+
+.enfant {
+    background-image: url("/Site de vente en ligne/img/accueil/infusions_animaux_540x.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 2% 2% 0% 2%;
+}
+
+.fond-text-flex {
+    background-color: rgba(255, 255, 255, 0.575);
+    margin: 30% 2% 2% 2%;
+    padding: 1%
+}
+
+/*------------------------------------------------*/
+
+.titre-align {
+    display: flex;
+    margin-left: 12%;
+}
+
+.video {
+    width: 100%;
+    height: 60%;
+}
+
+.ete {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    margin: 2% 10% 0% 10%;
+}
+
+.the-matcha {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url("/Site de vente en ligne/img/accueil/matchalate2.png");
+    background-size: cover;
+    background-position: center;
+    padding: 103% 2% 2% 2%;
+    margin: 2%;
+}
+
+.fouet-matcha {
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url("/Site de vente en ligne/img/accueil/fouet_matcha.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100% 2% 2% 2%;
+    margin: 2%;
+}
+
+.video-matcha {
+    grid-column: span 2;
+    grid-row: 2;
+    margin: 2%;
+}
+
+.fond-text-grid {
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 1%;
+}
+
+/*------------------------------------------------*/
+
+.carousel {
+    width: 90%;
+    margin: -20% auto 15% auto;
+}
+
+.img-caroussel {
+    width: 100%;
+    margin: auto;
+}
+
+.video-caroussel {
+    width: 100%;
+    height: 50%;
+    margin: auto;
+}
+
+/*------------------------------------------------*/
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+    padding: 2%;
+}
+
+.specialites {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.aide {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.panda-tea {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.reseaux {
+    grid-column: span 3;
+    grid-row: 2;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+/*------------------------------------------------*/
+
+@media (min-width: 790px) {
+
+    .nouveautes {
+        flex-direction: row;
+        margin: 5% 10% 5% 10%;
+    }
+    
+    .detox-slim, .selection, .enfant {
+        margin: 1%;
+    }
+
+    .fond-blanc {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+    }
+
+    .ete {
+        grid-template-columns: 35% 35% 30%;
+        grid-template-rows: 1;
+    }
+
+    .the-matcha {
+        padding-top: 100%;
+    }
+
+    .video-matcha {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .video {
+        height: 100%;
+    }
+
+    .carousel {
+        width: 60%;
+        margin: 5% auto 5% auto;
+    }
+
+}    
+
+@media (min-width: 1200px) {
+    
+    .footer-grid {
+        grid-template-columns: 4;
+    }
+    
+    .reseaux {
+        grid-column: 4;
+        grid-row: 1;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    .nouveautes {
+        margin: 10vh 15% 10vh 15%;
+    }
+
+    .ete {
+        margin: 2% 15% 0% 15%;
+    }
+
+    .titre-align {
+        margin-left: 18%;
+    }
+
+    .footer-grid {
+        margin: 10vh 15% 10vh 15%;
+    }
+}

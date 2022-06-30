@@ -1,0 +1,247 @@
+.T1 {
+    font-family: bold "Intel", sans-serif;
+    font-size: 20px;
+}
+
+.T2 {
+    font-family: "Intel", sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    padding-left: 5vh;
+}
+
+.T3 {
+    font-family: "Intel", sans-serif;
+    font-size: 18px;
+    margin: 2vh 2vh 1vh 2vh;
+}
+
+.T4 {
+    font-family: "Intel", sans-serif;
+    font-size: 12px;
+    margin: 0vh 2vh 1vh 2vh;
+}
+
+.F1 {
+    font-family: "Intel", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.F2 {
+    font-family: "Intel", sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+/*------------------------------------------------*/
+
+#nav-bar {
+    background-color: #CFB79B;
+    padding: 1vh;
+}
+.nav-item{
+    font-size: 20px;
+}
+
+#menu-produits, #menu-packs, #menu-propos, #menu-forums, #menu-contact {
+    color: white;
+}
+
+/*------------------------------------------------*/
+
+.forums {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 6;
+    margin: 15vh 5% 3% 5%;
+}
+
+.article {
+    grid-column: span 2;
+    grid-row: 1;
+    background-color: #F2E2CE;
+    padding: 5%;
+}
+
+.profil-sam {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 1vh 10% 1vh 10%;
+    background-color: #AC8557;
+    height: 12vh;
+}
+
+.commentaire-sam {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 1vh 0% 1vh 0%;
+    background-color: #F3F3F3;
+}
+
+.profil-soumaya {
+    grid-column: 1;
+    grid-row: 3;
+    margin: 1vh 10% 1vh 10%;
+    background-color: #FBE2A2;
+    height: 12vh;
+}
+
+.commentaire-soumaya {
+    grid-column: 2;
+    grid-row: 3;
+    margin: 1vh 10% 1vh 0%;
+    background-color: #F2E2CE;
+}
+
+.profil-stevens {
+    grid-column: 1;
+    grid-row: 4;
+    margin: 1vh 10% 1vh 10%;
+    background-color: #AC8557;
+    height: 12vh;
+}
+
+.commentaire-stevens {
+    grid-column: 2;
+    grid-row: 4;
+    margin: 1vh 0% 1vh 0%;
+    background-color: #F3F3F3;
+}
+
+.profil-julien {
+    display: none;
+    grid-column: 1;
+    grid-row: 5;
+    margin: 1vh 10% 1vh 10%;
+    background-color: #FBE2A2;
+    height: 12vh;
+}
+
+.commentaire-julien {
+    display: none;
+    grid-column: 2;
+    grid-row: 5;
+    margin: 1vh 10% 1vh 0%;
+    background-color: #F2E2CE;
+}
+
+.profil-gwendoline {
+    display: none;
+    grid-column: 1;
+    grid-row: 6;
+    margin: 1vh 10% 1vh 10%;
+    background-color: #AC8557;
+    height: 12vh;
+}
+
+.commentaire-gwendoline {
+    display: none;
+    grid-column: 2;
+    grid-row: 6;
+    margin: 1vh 0% 1vh 0%;
+    background-color: #F3F3F3;
+}
+
+/*------------------------------------------------*/
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+    padding: 2%;
+}
+
+.specialites {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.aide {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.panda-tea {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.reseaux {
+    grid-column: span 3;
+    grid-row: 2;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+/*------------------------------------------------*/
+
+@media (min-width: 768px) {
+
+    .profil-julien {
+        display: block;
+    }
+    
+    .commentaire-julien {
+        display: block;
+    }
+    
+    .profil-gwendoline {
+        display: block;
+    }
+    
+    .commentaire-gwendoline {
+        display: block;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .T1 {
+        font-size: 22px;
+    }
+    
+    .T2 {
+        font-size: 15px;
+    }
+
+    .forums {
+        margin: 15vh 15% 3% 15%;
+    }
+
+    .footer-grid {
+        grid-template-columns: 4;
+    }
+    
+    .reseaux {
+        grid-column: 4;
+        grid-row: 1;
+    }
+    .client {
+        margin-top: 20vh;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    .T1 {
+        font-size: 30px;
+    }
+    
+    .T2 {
+        font-size: 20px;
+    }
+
+    .T3 {
+        font-size: 20px;
+    }
+    
+    .T4 {
+        font-size: 15px;
+    }
+
+    .footer-grid {
+        margin: 10vh 15% 10vh 15%;
+    }
+}

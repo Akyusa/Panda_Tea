@@ -1,0 +1,217 @@
+.T1 {
+    margin: 10vh 5vh 5vh 5vh;
+    font-family: bold "Intel", sans-serif;
+    font-size: 20px;
+}
+
+.T2 {
+    margin: 5vh;
+    font-family: "Intel", sans-serif;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.T3 {
+    font-family: bold "Intel", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.T4 {
+    font-family: "Intel", sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.F1 {
+    font-family: "Intel", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.F2 {
+    font-family: "Intel", sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+/*------------------------------------------------*/
+
+#nav-bar {
+    background-color: #CFB79B;
+    padding: 1vh;
+}
+.nav-item{
+    font-size: 20px;
+}
+
+#menu-produits, #menu-packs, #menu-propos, #menu-forums, #menu-contact {
+    color: white;
+}
+
+/*------------------------------------------------*/
+
+.panda-tea {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+}
+
+.the {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 5%;
+    text-align: center;
+}
+
+.prix {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 5%;
+    text-align: center;
+}
+
+.communaute {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 5%;
+    text-align: center;
+}
+
+.livraison {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 5%;
+    text-align: center;
+}
+
+.equipe {
+    grid-column: 1;
+    grid-row: 3;
+    margin: 5%;
+    text-align: center;
+}
+
+.partenaire {
+    grid-column: 2;
+    grid-row: 3;
+    margin: 5%;
+    text-align: center;
+}
+
+.img-grid {
+    width: 80px;
+    margin-bottom: 10%;
+}
+
+.img-a-propos {
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+/*------------------------------------------------*/
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+    padding: 2%;
+}
+
+.specialites {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.aide {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.panda-tea {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.reseaux {
+    grid-column: span 3;
+    grid-row: 2;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+/*------------------------------------------------*/
+
+@media (min-width: 790px) {
+
+    .T1 {
+        margin: 15vh 5vh 0vh 10vh;
+        font-size: 30px;
+    }
+    
+    .T2 {
+        margin: 10vh;
+        font-size: 20px;
+    }
+    
+    .T3 {
+        font-size: 20px;
+        margin-top: 15vh;
+        margin-bottom: 0%;
+    }
+    
+    .T4 {
+        font-size: 17px;
+    }
+    
+    .panda-tea {
+        margin: 0vh 15% 5vh 15%;
+    }
+    
+    .img-grid {
+        width: 80px;
+        margin-bottom: 10%;
+    }
+
+}    
+
+@media (min-width: 1200px) {
+    
+    .footer-grid {
+        grid-template-columns: 4;
+    }
+    
+    .reseaux {
+        grid-column: 4;
+        grid-row: 1;
+    }
+
+    .T1 {
+        margin: 15vh 20vh 0vh 20vh;
+        font-size: 30px;
+    }
+    
+    .T2 {
+        margin: 10vh 20vh 10vh 20vh;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    .footer-grid {
+        margin: 10vh 15% 10vh 15%;
+    }
+
+    .T1 {
+        margin: 15vh 30vh 0vh 30vh;
+        font-size: 30px;
+    }
+    
+    .T2 {
+        margin: 10vh 30vh 10vh 30vh;
+        font-size: 20px;
+    }
+}

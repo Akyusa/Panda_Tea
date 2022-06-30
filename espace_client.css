@@ -1,0 +1,129 @@
+.T1 {
+    font-family: bold "Intel", sans-serif;
+    font-size: 20px;
+}
+
+.T2 {
+    font-family: "Intel", sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.T3 {
+    font-family: "Intel", sans-serif;
+    font-size: 10px;
+}
+
+.F1 {
+    font-family: "Intel", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.F2 {
+    font-family: "Intel", sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+/*------------------------------------------------*/
+
+#nav-bar {
+    background-color: #CFB79B;
+    padding: 1vh;
+}
+.nav-item{
+    font-size: 20px;
+}
+
+#menu-produits, #menu-packs, #menu-propos, #menu-forums, #menu-contact {
+    color: white;
+}
+
+/*------------------------------------------------*/
+
+.client {
+    margin: 10vh 10% 5% 10%;
+}
+
+.form-control {
+    border: 2px solid #CFB79B;
+}
+
+#bouton {
+    background-color: #CFB79B;
+    font-family: "Intel", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    width: 80%;
+    height: 40px;
+}
+
+.marge {
+    margin-top: 5vh;
+}
+
+/*------------------------------------------------*/
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+    padding: 2%;
+}
+
+.specialites {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.aide {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.panda-tea {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.reseaux {
+    grid-column: span 3;
+    grid-row: 2;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+/*------------------------------------------------*/
+
+@media (min-width: 768px) {
+    .marge {
+        margin: 0% 0% 0% 15%;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .footer-grid {
+        grid-template-columns: 4;
+    }
+    
+    .reseaux {
+        grid-column: 4;
+        grid-row: 1;
+    }
+    .client {
+        margin-top: 20vh;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    .footer-grid {
+        margin: 10vh 15% 10vh 15%;
+    }
+}
