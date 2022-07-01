@@ -8,6 +8,7 @@
     margin-top: 2vh;
 }
 
+
 .T1 {
     text-align: center;
     font-family: "Intel", sans-serif;
@@ -56,12 +57,30 @@
     background-color: #CFB79B;
     padding: 1vh;
 }
+
 .nav-item{
     font-size: 20px;
 }
 
+#nav-ico{
+    width: 30px;
+    height: 30px;
+}
+
+@media (min-width:425px) {
+
+    #nav-ico a img {
+        width: 30px!important;
+        height: 30px!important;
+    }
+}
+
 #menu-produits, #menu-packs, #menu-propos, #menu-forums, #menu-contact {
     color: white;
+}
+
+.sup-padding {
+    padding: 0;
 }
 
 /*------------------------------------------------*/
@@ -232,46 +251,6 @@
 
 /*------------------------------------------------*/
 
-/* .card-container {
-    position: relative;
-    height: auto;
-    width: auto;
-}
-
-.card-container:hover .card {
-    transform: rotateY(180deg);
-}
-
-.card {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    transition: all 0.3s ease;
-    transform-style: preserve-3d;
-}
-
-.card-front {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    backface-visibility: hidden;
-}
-
-.card-back {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    backface-visibility: hidden;
-    transform: rotateY(-180deg);
-}
-
-.card-img {
-    height: 300px;
-    width: 300px;
-} */
-
-/*------------------------------------------------*/
-
 .footer-grid {
     display: grid;
     grid-template-columns: 3;
@@ -313,32 +292,32 @@
         grid-template-columns: 33% 33% 33%;
         grid-template-rows: 4;
     }
-    
+
     .detox-slim {
         grid-column: 3;
         grid-row: 1;
     }
-    
+
     .the-matcha {
         grid-column: 1;
         grid-row: 2;
     }
-    
+
     .famille {
         grid-column: 2;
         grid-row: 2;
     }
-    
+
     .coffret-infusion {
         grid-column: 3;
         grid-row: 2;
     }
-    
+
     .energie {
         grid-column: 1;
         grid-row: 3;
     }
-    
+
     .digestion {
         grid-column: 2;
         grid-row: 3;
@@ -348,17 +327,17 @@
         grid-column: 3;
         grid-row: 3;
     }
-    
+
     .pack-detox {
         grid-column: 1;
         grid-row: 4;
     }
-    
+
     .melanges-sportif {
         grid-column: 2;
         grid-row: 4;
     }
-    
+
     .infusion-sans-theine {
         grid-column: 3;
         grid-row: 4;
@@ -366,7 +345,7 @@
 }
 
 @media (min-width: 1200px) {
-    
+
     .packs {
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: 3;
@@ -376,22 +355,22 @@
         grid-column: 4;
         grid-row: 1;
     }
-    
+
     .famille {
         grid-column: 1;
         grid-row: 2;
     }
-    
+
     .coffret-infusion {
         grid-column: 2;
         grid-row: 2;
     }
-    
+
     .energie {
         grid-column: 3;
         grid-row: 2;
     }
-    
+
     .digestion {
         grid-column: 4;
         grid-row: 2;
@@ -401,17 +380,17 @@
         grid-column: 1;
         grid-row: 3;
     }
-    
+
     .pack-detox {
         grid-column: 2;
         grid-row: 3;
     }
-    
+
     .melanges-sportif {
         grid-column: 3;
         grid-row: 3;
     }
-    
+
     .infusion-sans-theine {
         grid-column: 4;
         grid-row: 3;
@@ -420,7 +399,7 @@
     .footer-grid {
         grid-template-columns: 4;
     }
-    
+
     .reseaux {
         grid-column: 4;
         grid-row: 1;

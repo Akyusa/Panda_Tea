@@ -60,29 +60,20 @@
 }
 
 #nav-ico{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 @media (min-width:425px) {
 
     #nav-ico a img {
-        width: 50px!important;
-        height: 50px!important;
+        width: 30px!important;
+        height: 30px!important;
     }
 }
 
 #menu-produits, #menu-packs, #menu-propos, #menu-forums, #menu-contact {
     color: white;
-}
-
-.img-compte {
-    width: 9%;
-    margin: 0;
-}
-
-.img-panier {
-    width: 8%;
 }
 
 .sup-padding {

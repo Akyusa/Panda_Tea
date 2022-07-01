@@ -27,7 +27,6 @@
     text-align: center;
     font-family: "Intel", sans-serif;
     font-size: 14px;
-    color: #000000;
 }
 
 .T4 {
@@ -57,12 +56,30 @@
     background-color: #CFB79B;
     padding: 1vh;
 }
+
 .nav-item{
     font-size: 20px;
 }
 
+#nav-ico{
+    width: 30px;
+    height: 30px;
+}
+
+@media (min-width:425px) {
+
+    #nav-ico a img {
+        width: 30px!important;
+        height: 30px!important;
+    }
+}
+
 #menu-produits, #menu-packs, #menu-propos, #menu-forums, #menu-contact {
     color: white;
+}
+
+.sup-padding {
+    padding: 0;
 }
 
 /*------------------------------------------------*/
@@ -268,37 +285,37 @@
     .banniere {
         margin-top: auto;
     }
-
+    
     .produits {
         grid-template-columns: 33% 33% 33%;
         grid-template-rows: 4;
     }
-    
+
     .sleep {
         grid-column: 3;
         grid-row: 1;
     }
-    
+
     .fresh {
         grid-column: 1;
         grid-row: 2;
     }
-    
+
     .libertea {
         grid-column: 2;
         grid-row: 2;
     }
-    
+
     .habibtea {
         grid-column: 3;
         grid-row: 2;
     }
-    
+
     .green {
         grid-column: 1;
         grid-row: 3;
     }
-    
+
     .choco {
         grid-column: 2;
         grid-row: 3;
@@ -308,17 +325,17 @@
         grid-column: 3;
         grid-row: 3;
     }
-    
+
     .infuser {
         grid-column: 1;
         grid-row: 4;
     }
-    
+
     .bottle-verte {
         grid-column: 2;
         grid-row: 4;
     }
-    
+
     .bottle-violet {
         grid-column: 3;
         grid-row: 4;
@@ -336,22 +353,22 @@
         grid-column: 4;
         grid-row: 1;
     }
-    
+
     .libertea {
         grid-column: 1;
         grid-row: 2;
     }
-    
+
     .habibtea {
         grid-column: 2;
         grid-row: 2;
     }
-    
+
     .green {
         grid-column: 3;
         grid-row: 2;
     }
-    
+
     .choco {
         grid-column: 4;
         grid-row: 2;
@@ -361,17 +378,17 @@
         grid-column: 1;
         grid-row: 3;
     }
-    
+
     .infuser {
         grid-column: 2;
         grid-row: 3;
     }
-    
+
     .bottle-verte {
         grid-column: 3;
         grid-row: 3;
     }
-    
+
     .bottle-violet {
         grid-column: 4;
         grid-row: 3;
@@ -380,7 +397,7 @@
     .footer-grid {
         grid-template-columns: 4;
     }
-    
+
     .reseaux {
         grid-column: 4;
         grid-row: 1;

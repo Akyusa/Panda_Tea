@@ -33,12 +33,30 @@
     background-color: #CFB79B;
     padding: 1vh;
 }
+
 .nav-item{
     font-size: 20px;
 }
 
+#nav-ico{
+    width: 30px;
+    height: 30px;
+}
+
+@media (min-width:425px) {
+
+    #nav-ico a img {
+        width: 30px!important;
+        height: 30px!important;
+    }
+}
+
 #menu-produits, #menu-packs, #menu-propos, #menu-forums, #menu-contact {
     color: white;
+}
+
+.sup-padding {
+    padding: 0;
 }
 
 /*------------------------------------------------*/
@@ -107,15 +125,16 @@
 }
 
 @media (min-width: 1200px) {
-    
+
     .footer-grid {
         grid-template-columns: 4;
     }
-    
+
     .reseaux {
         grid-column: 4;
         grid-row: 1;
     }
+
     .client {
         margin-top: 20vh;
     }

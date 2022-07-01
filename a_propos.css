@@ -43,12 +43,30 @@
     background-color: #CFB79B;
     padding: 1vh;
 }
+
 .nav-item{
     font-size: 20px;
 }
 
+#nav-ico{
+    width: 30px;
+    height: 30px;
+}
+
+@media (min-width:425px) {
+
+    #nav-ico a img {
+        width: 30px!important;
+        height: 30px!important;
+    }
+}
+
 #menu-produits, #menu-packs, #menu-propos, #menu-forums, #menu-contact {
     color: white;
+}
+
+.sup-padding {
+    padding: 0;
 }
 
 /*------------------------------------------------*/
@@ -150,39 +168,39 @@
         margin: 15vh 5vh 0vh 10vh;
         font-size: 30px;
     }
-    
+
     .T2 {
         margin: 10vh;
         font-size: 20px;
     }
-    
+
     .T3 {
         font-size: 20px;
         margin-top: 15vh;
         margin-bottom: 0%;
     }
-    
+
     .T4 {
         font-size: 17px;
     }
-    
+
     .panda-tea {
         margin: 0vh 15% 5vh 15%;
     }
-    
+
     .img-grid {
         width: 80px;
         margin-bottom: 10%;
     }
 
-}    
+}
 
 @media (min-width: 1200px) {
-    
+
     .footer-grid {
         grid-template-columns: 4;
     }
-    
+
     .reseaux {
         grid-column: 4;
         grid-row: 1;
@@ -192,7 +210,7 @@
         margin: 15vh 20vh 0vh 20vh;
         font-size: 30px;
     }
-    
+
     .T2 {
         margin: 10vh 20vh 10vh 20vh;
         font-size: 20px;
@@ -209,7 +227,7 @@
         margin: 15vh 30vh 0vh 30vh;
         font-size: 30px;
     }
-    
+
     .T2 {
         margin: 10vh 30vh 10vh 30vh;
         font-size: 20px;
